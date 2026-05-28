@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENZA - Health & Recovery</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- HEADER / NAVEGACIÓN -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index.html" class="logo">
+                    <img src="imagenes/logo-verde.png" alt="SENZA Logo" class="logo-img">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Inicio</a></li>
+                    <li><a href="protocolos.html" class="nav-link">Protocolos</a></li>
+                    <li><a href="para-teams.html" class="nav-link">Para Teams</a></li>
+                    <li><a href="preguntas-frecuentes.html" class="nav-link">Preguntas Frecuentes</a></li>
+                    <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO / SECCIÓN PRINCIPAL -->
+    <section class="hero" style="background-image: linear-gradient(135deg, rgba(147, 233, 72, 0.9) 0%, rgba(13, 68, 57, 0.9) 100%), url('imagenes/46f7094ea843554cc579ee31e1f7b771.jpg'); background-size: cover; background-position: center;">
+        <div class="hero-content">
+            <h1>¿Qué necesitás recuperar hoy?</h1>
+            <p>Descubrí el protocolo de recuperación perfecto para vos</p>
+        </div>
+    </section>
+
+    <!-- DIAGNÓSTICO INTERACTIVO -->
+    <section class="diagnostic">
+        <div class="diagnostic-container">
+            <div class="diagnostic-button" onclick="scrollTo('volver-entrenar')">
+                <h3>Volver a entrenar</h3>
+                <p>Retoma tu rutina con seguridad</p>
+            </div>
+            <div class="diagnostic-button" onclick="scrollTo('bajar-dolor')">
+                <h3>Bajar dolor</h3>
+                <p>Alivia molestias y tensiones</p>
+            </div>
+            <div class="diagnostic-button" onclick="scrollTo('recuperarse-rapido')">
+                <h3>Recuperarte más rápido</h3>
+                <p>Optimiza tu recuperación</p>
+            </div>
+            <div class="diagnostic-button" onclick="scrollTo('rendir-mejor')">
+                <h3>Rendí mejor</h3>
+                <p>Potencia tu rendimiento</p>
+            </div>
+            <div class="diagnostic-button full-width" onclick="scrollTo('prevenir-lesiones')">
+                <h3>Prevenir lesiones</h3>
+                <p>Protege tu cuerpo antes de que ocurran</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- SECCIÓN: VOLVER A ENTRENAR -->
+        <section id="volver-entrenar" class="content-section light">
+            <div class="section-container">
+                <img src="imagenes/8a02cea2cf33fbfdede5aaa1fe6d29bd.jpg" alt="Volver a entrenar" class="section-image">
+                <h2>Volver a entrenar</h2>
+                <p>Después de una lesión o tiempo sin actividad, retomar tu rutina requiere un protocolo específico. En SENZA te acompañamos en cada paso.</p>
+                <a href="protocolos.html#recovery-express" class="btn btn-primary">Ver protocolo</a>
+            </div>
+        </section>
+
+        <!-- SECCIÓN: BAJAR DOLOR -->
+        <section id="bajar-dolor" class="content-section">
+            <div class="section-container">
+                <h2>Bajar dolor</h2>
+                <p>El dolor limita tu potencial. Nuestros protocolos están diseñados para aliviar molestias agudas y crónicas, mejorando tu calidad de vida.</p>
+                <a href="protocolos.html#dolor-mobility" class="btn btn-primary">Ver protocolo</a>
+            </div>
+        </section>
+
+        <!-- SECCIÓN: RECUPERARSE MÁS RÁPIDO -->
+        <section id="recuperarse-rapido" class="content-section light">
+            <div class="section-container">
+                <img src="imagenes/bd21b27d246261cbda3d5348ef3e75e0.jpg" alt="Recuperate más rápido" class="section-image">
+                <h2>Recuperarte más rápido</h2>
+                <p>Optimiza tu recuperación post-entrenamiento con herramientas científicas que aceleran el proceso de restauración muscular.</p>
+                <a href="protocolos.html#recovery-pro" class="btn btn-primary">Ver protocolo</a>
+            </div>
+        </section>
+
+        <!-- SECCIÓN: RENDÍ MEJOR -->
+        <section id="rendir-mejor" class="content-section">
+            <div class="section-container">
+                <h2>Rendí mejor</h2>
+                <p>La recuperación es parte del entrenamiento. Mejora tu rendimiento deportivo con protocolos de alto rendimiento.</p>
+                <a href="protocolos.html#post-match" class="btn btn-primary">Ver protocolo</a>
+            </div>
+        </section>
+
+        <!-- SECCIÓN: PREVENIR LESIONES -->
+        <section id="prevenir-lesiones" class="content-section light">
+            <div class="section-container">
+                <h2>Prevenir lesiones</h2>
+                <p>Es mejor prevenir que curar. Fortalece tu cuerpo y evita futuras lesiones con nuestros programas preventivos.</p>
+                <a href="protocolos.html#prevencion" class="btn btn-primary">Ver protocolo</a>
+            </div>
+        </section>
+
+        <!-- SECCIÓN: POR QUÉ SENZA -->
+        <section class="why-senza">
+            <div class="section-container">
+                <h2>Por qué SENZA</h2>
+                <div class="features">
+                    <div class="feature-card">
+                        <h3>Ciencia aplicada</h3>
+                        <p>Protocolos basados en evidencia científica para máxima efectividad</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Personalizado</h3>
+                        <p>Cada plan está diseñado específicamente para tus necesidades</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Resultados reales</h3>
+                        <p>Historias de atletas que volvieron a su máximo rendimiento</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>SENZA</h4>
+                <ul>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Protocolos</h4>
+                <ul>
+                    <li><a href="protocolos.html">Ver todos</a></li>
+                    <li><a href="protocolos.html#recovery-express">Recovery Express</a></li>
+                    <li><a href="protocolos.html#recovery-pro">Recovery Pro</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Para Teams</h4>
+                <ul>
+                    <li><a href="para-teams.html">SENZA para Clubes</a></li>
+                    <li><a href="para-teams.html">Convenios</a></li>
+                    <li><a href="contacto.html">Solicitar Info</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <ul>
+                    <li><a href="contacto.html">Formulario</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Teléfono</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SENZA Health & Recovery. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
