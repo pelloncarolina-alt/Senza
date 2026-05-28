@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - SENZA</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- HEADER / NAVEGACIÓN -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index.html" class="logo">
+                    <img src="imagenes/logo-verde.png" alt="SENZA Logo" class="logo-img">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="protocolos.html" class="nav-link">Protocolos</a></li>
+                    <li><a href="para-teams.html" class="nav-link">Para Teams</a></li>
+                    <li><a href="preguntas-frecuentes.html" class="nav-link">Preguntas Frecuentes</a></li>
+                    <li><a href="contacto.html" class="nav-link active">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" style="background-image: linear-gradient(135deg, rgba(147, 233, 72, 0.9) 0%, rgba(13, 68, 57, 0.9) 100%), url('../imagenes/3327a29f3da8331f257a0a1e26446787.jpg'); background-size: cover; background-position: center;">
+        <div class="hero-content">
+            <h1>Contacta con nosotros</h1>
+            <p>Estamos aquí para ayudarte a recuperarte</p>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- FORMULARIO -->
+        <section class="content-section light">
+            <div class="section-container">
+                <h2>Formulario de contacto</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+                    <div class="form-group">
+                        <label for="asunto">Asunto</label>
+                        <select id="asunto" name="asunto" required>
+                            <option value="">Selecciona un asunto</option>
+                            <option value="reserva">Reservar sesión</option>
+                            <option value="consulta">Consulta general</option>
+                            <option value="teams">Consulta B2B</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- INFORMACIÓN DE CONTACTO -->
+        <section class="content-section">
+            <div class="section-container">
+                <h2>Información de contacto</h2>
+            </div>
+            <div class="contact-info">
+                <div class="info-card">
+                    <h3>📍 Ubicación</h3>
+                    <p>Mar del Plata, Buenos Aires</p>
+                    <p>Argentina</p>
+                </div>
+                <div class="info-card">
+                    <h3>📞 Teléfono</h3>
+                    <p>+54 223 XXXXXX</p>
+                    <p>Lunes a Viernes: 9:00 - 18:00</p>
+                </div>
+                <div class="info-card">
+                    <h3>✉️ Email</h3>
+                    <p>info@senza.com</p>
+                    <p>Respuesta en 24hs</p>
+                </div>
+                <div class="info-card">
+                    <h3>🕐 Horarios</h3>
+                    <p>Lunes a Viernes: 9:00 - 19:00</p>
+                    <p>Sábados: 9:00 - 13:00</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- REDES SOCIALES -->
+        <section class="content-section light">
+            <div class="section-container">
+                <h2>Seguinos en redes</h2>
+                <p>Historias, tips y actualizaciones sobre recovery</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">TikTok</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA FINAL -->
+        <section class="why-senza light">
+            <div class="section-container">
+                <h2>¿Necesitas más información?</h2>
+                <p>Visitá nuestra sección de preguntas frecuentes o dejanos un mensaje con tus dudas.</p>
+                <a href="preguntas-frecuentes.html" class="btn btn-secondary">Ver preguntas frecuentes</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>SENZA</h4>
+                <ul>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Protocolos</h4>
+                <ul>
+                    <li><a href="protocolos.html">Ver todos</a></li>
+                    <li><a href="protocolos.html#recovery-express">Recovery Express</a></li>
+                    <li><a href="protocolos.html#recovery-pro">Recovery Pro</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Para Teams</h4>
+                <ul>
+                    <li><a href="para-teams.html">SENZA para Clubes</a></li>
+                    <li><a href="para-teams.html">Convenios</a></li>
+                    <li><a href="contacto.html">Solicitar Info</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <ul>
+                    <li><a href="contacto.html">Formulario</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Teléfono</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SENZA Health & Recovery. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <style>
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #444;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            font-family: var(--font-primary);
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--verde-claro);
+            box-shadow: 0 0 0 3px rgba(147, 233, 72, 0.2);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+        }
+
+        .contact-info {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            padding: 0 20px;
+        }
+
+        .info-card {
+            background: white;
+            padding: 25px 20px;
+            border-radius: 8px;
+            text-align: center;
+            border-top: 4px solid var(--verde-claro);
+        }
+
+        .info-card h3 {
+            margin-bottom: 10px;
+        }
+
+        .info-card p {
+            margin-bottom: 5px;
+            font-size: 0.95rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .social-link {
+            padding: 10px 20px;
+            background-color: var(--verde-claro);
+            color: var(--teal);
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background-color: #7fd740;
+            transform: translateY(-2px);
+        }
+
+        @media (min-width: 768px) {
+            .contact-info {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 25px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .contact-info {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+    </style>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

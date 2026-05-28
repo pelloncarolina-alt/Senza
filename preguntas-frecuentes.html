@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes - SENZA</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <!-- HEADER / NAVEGACIÓN -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index.html" class="logo">
+                    <img src="imagenes/logo-verde.png" alt="SENZA Logo" class="logo-img">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="protocolos.html" class="nav-link">Protocolos</a></li>
+                    <li><a href="para-teams.html" class="nav-link">Para Teams</a></li>
+                    <li><a href="preguntas-frecuentes.html" class="nav-link active">Preguntas Frecuentes</a></li>
+                    <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" style="background-image: linear-gradient(135deg, rgba(147, 233, 72, 0.9) 0%, rgba(13, 68, 57, 0.9) 100%), url('imagenes/3327a29f3da8331f257a0a1e26446787.jpg'); background-size: cover; background-position: center;">
+        <div class="hero-content">
+            <h1>Preguntas Frecuentes</h1>
+            <p>Resolvemos tus dudas sobre SENZA y nuestros protocolos</p>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- FAQ -->
+        <section class="content-section light">
+            <div class="section-container">
+                <h2>Preguntas que nos hacen frecuentemente</h2>
+                <p>Aquí encontrás respuestas a las preguntas más comunes sobre nuestros servicios</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h4>¿Cómo reservo una sesión?</h4>
+                    <p>Podés llenar el formulario de contacto o llamarnos directamente. Nuestro equipo confirmará tu reserva en 24hs.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>¿Cuáles son los precios?</h4>
+                    <p>Los precios varían según el protocolo elegido. Podés consultar con nuestro equipo para obtener presupuestos personalizados.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>¿Ofrecen sesiones para equipos?</h4>
+                    <p>Sí. Tenemos protocolos especiales para clubes y equipos. Contactanos para más información sobre nuestro programa B2B.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>¿Es necesario ser derivado por un profesional?</h4>
+                    <p>No es obligatorio, pero en algunos casos es recomendable. Nuestros especialistas evaluarán qué es mejor para vos.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>¿Aceptan turnos urgentes?</h4>
+                    <p>Sí. Tenemos algunos turnos disponibles para casos urgentes. Consultanos.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>¿Dónde están ubicados?</h4>
+                    <p>En Mar del Plata. Podés visitarnos o contactarnos para conocer nuestras instalaciones.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA FINAL -->
+        <section class="why-senza light">
+            <div class="section-container">
+                <h2>¿Más dudas?</h2>
+                <p>Nuestro equipo está listo para responder cualquier pregunta que tengas.</p>
+                <a href="contacto.html" class="btn btn-secondary">Contactanos</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>SENZA</h4>
+                <ul>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Protocolos</h4>
+                <ul>
+                    <li><a href="protocolos.html">Ver todos</a></li>
+                    <li><a href="protocolos.html#recovery-express">Recovery Express</a></li>
+                    <li><a href="protocolos.html#recovery-pro">Recovery Pro</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Para Teams</h4>
+                <ul>
+                    <li><a href="para-teams.html">SENZA para Clubes</a></li>
+                    <li><a href="para-teams.html">Convenios</a></li>
+                    <li><a href="contacto.html">Solicitar Info</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <ul>
+                    <li><a href="contacto.html">Formulario</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Teléfono</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SENZA Health & Recovery. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <style>
+        .faq-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            padding: 0 20px;
+        }
+
+        .faq-item {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--verde-claro);
+        }
+
+        .faq-item h4 {
+            margin-bottom: 10px;
+            color: var(--teal);
+        }
+
+        .faq-item p {
+            margin-bottom: 0;
+            font-size: 0.95rem;
+        }
+
+        @media (min-width: 768px) {
+            .faq-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .faq-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
