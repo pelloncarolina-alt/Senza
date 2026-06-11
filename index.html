@@ -31,7 +31,11 @@
     </header>
 
     <!-- HERO / SECCIÓN PRINCIPAL -->
-    <section class="hero" style="background-image: linear-gradient(135deg, rgba(147, 233, 72, 0.9) 0%, rgba(13, 68, 57, 0.9) 100%), url('imagenes/46f7094ea843554cc579ee31e1f7b771.jpg'); background-size: cover; background-position: center;">
+    <section class="hero hero-video">
+        <video class="hero-video-bg" autoplay muted loop playsinline poster="imagenes/46f7094ea843554cc579ee31e1f7b771.jpg">
+            <source src="videos/hero-video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1>¿Qué necesitás recuperar hoy?</h1>
             <p>Descubrí el protocolo de recuperación perfecto para vos</p>
@@ -68,11 +72,13 @@
     <main>
         <!-- SECCIÓN: VOLVER A ENTRENAR -->
         <section id="volver-entrenar" class="content-section light">
-            <div class="section-container">
+            <div class="section-container with-image">
                 <img src="imagenes/8a02cea2cf33fbfdede5aaa1fe6d29bd.jpg" alt="Volver a entrenar" class="section-image">
-                <h2>Volver a entrenar</h2>
-                <p>Después de una lesión o tiempo sin actividad, retomar tu rutina requiere un protocolo específico. En SENZA te acompañamos en cada paso.</p>
-                <a href="protocolos.html#recovery-express" class="btn btn-primary">Ver protocolo</a>
+                <div class="content-text">
+                    <h2>Volver a entrenar</h2>
+                    <p>Después de una lesión o tiempo sin actividad, retomar tu rutina requiere un protocolo específico. En SENZA te acompañamos en cada paso.</p>
+                    <a href="protocolos.html#recovery-express" class="btn btn-primary">Ver protocolo</a>
+                </div>
             </div>
         </section>
 
@@ -87,11 +93,13 @@
 
         <!-- SECCIÓN: RECUPERARSE MÁS RÁPIDO -->
         <section id="recuperarse-rapido" class="content-section light">
-            <div class="section-container">
+            <div class="section-container with-image">
+                <div class="content-text">
+                    <h2>Recuperarte más rápido</h2>
+                    <p>Optimiza tu recuperación post-entrenamiento con herramientas científicas que aceleran el proceso de restauración muscular.</p>
+                    <a href="protocolos.html#recovery-pro" class="btn btn-primary">Ver protocolo</a>
+                </div>
                 <img src="imagenes/bd21b27d246261cbda3d5348ef3e75e0.jpg" alt="Recuperate más rápido" class="section-image">
-                <h2>Recuperarte más rápido</h2>
-                <p>Optimiza tu recuperación post-entrenamiento con herramientas científicas que aceleran el proceso de restauración muscular.</p>
-                <a href="protocolos.html#recovery-pro" class="btn btn-primary">Ver protocolo</a>
             </div>
         </section>
 

@@ -123,15 +123,24 @@
             </div>
             <div class="features">
                 <div class="feature-card">
-                    <h3>Club X</h3>
+                    <div class="case-logo-wrap">
+                        <img src="imagenes/newbery-athletic.png" alt="Newbery Athletic Logo" class="case-logo">
+                    </div>
+                    <h3>Newbery Athletic</h3>
                     <p>30% menos lesiones en jugadores con protocolo preventivo</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Academia Y</h3>
+                    <div class="case-logo-wrap">
+                        <img src="imagenes/rumenco-fc.png" alt="Rumenco FC Logo" class="case-logo">
+                    </div>
+                    <h3>Rumenco FC</h3>
                     <p>Mejora en tiempos de recuperación entre entrenamientos</p>
                 </div>
                 <div class="feature-card">
-                    <h3>Equipo Z</h3>
+                    <div class="case-logo-wrap">
+                        <img src="imagenes/arenas.png" alt="Arenas Logo" class="case-logo">
+                    </div>
+                    <h3>Arenas</h3>
                     <p>Regreso seguro de 5 jugadores en tiempo récord</p>
                 </div>
             </div>
@@ -226,6 +235,26 @@
             .services-container {
                 grid-template-columns: repeat(3, 1fr);
             }
+        }
+
+        .case-logo-wrap {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 15px;
+            background: var(--blanco);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+        }
+
+        .case-logo {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            object-fit: contain;
         }
     </style>
 

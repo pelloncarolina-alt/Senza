@@ -20,3 +20,8 @@ package-lock.json
 # Archivos temporales
 *.tmp
 ~$*
+
+# Backups y videos originales (pesados)
+_temp_senza_old_backup/
+videos/_originals/
+VIDEOS/_originals/

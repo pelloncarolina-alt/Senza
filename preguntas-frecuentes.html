@@ -48,7 +48,7 @@
             </div>
         </section>
 
-        <section class="content-section">
+        <section class="content-section faq-section">
             <div class="faq-container">
                 <div class="faq-item">
                     <h4>¿Cómo reservo una sesión?</h4>
@@ -129,6 +129,35 @@
     </footer>
 
     <style>
+        .faq-section,
+        section.content-section.light:has(+ .faq-section),
+        main > section:first-of-type.content-section {
+            position: relative;
+            background-color: #0a0a0a;
+            overflow: hidden;
+        }
+
+        .faq-section::before,
+        section.content-section.light:has(+ .faq-section)::before,
+        main > section:first-of-type.content-section::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url('imagenes/Mesa de trabajo 15.png');
+            background-repeat: repeat;
+            background-size: 220px;
+            opacity: 0.06;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .faq-section > *,
+        section.content-section.light:has(+ .faq-section) > *,
+        main > section:first-of-type.content-section > * {
+            position: relative;
+            z-index: 1;
+        }
+
         .faq-container {
             max-width: 1200px;
             margin: 0 auto;
