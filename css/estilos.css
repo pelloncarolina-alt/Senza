@@ -581,7 +581,7 @@ footer {
     }
 
     .navbar {
-        padding: 20px 40px;
+        padding: 20px 70px;
     }
 
     .hamburger {
@@ -596,7 +596,7 @@ footer {
         padding: 0;
         border: none;
         width: auto;
-        background-color: transparent;
+        background-color: transparent !important;
     }
 
     .nav-link {
@@ -610,6 +610,7 @@ footer {
     }
 
     .nav-link:hover {
+        background-color: transparent !important;
         color: var(--verde-claro);
     }
 
