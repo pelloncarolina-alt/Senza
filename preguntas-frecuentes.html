@@ -49,31 +49,36 @@
         </section>
 
         <section class="content-section faq-section">
-            <div class="faq-container">
-                <div class="faq-item">
-                    <h4>¿Cómo reservo una sesión?</h4>
-                    <p>Podés llenar el formulario de contacto o llamarnos directamente. Nuestro equipo confirmará tu reserva en 24hs.</p>
+            <div class="faq-layout">
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <h4>¿Cómo reservo una sesión?</h4>
+                        <p>Podés llenar el formulario de contacto o llamarnos directamente. Nuestro equipo confirmará tu reserva en 24hs.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>¿Cuáles son los precios?</h4>
+                        <p>Los precios varían según el protocolo elegido. Podés consultar con nuestro equipo para obtener presupuestos personalizados.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>¿Ofrecen sesiones para equipos?</h4>
+                        <p>Sí. Tenemos protocolos especiales para clubes y equipos. Contactanos para más información sobre nuestro programa B2B.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>¿Es necesario ser derivado por un profesional?</h4>
+                        <p>No es obligatorio, pero en algunos casos es recomendable. Nuestros especialistas evaluarán qué es mejor para vos.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>¿Aceptan turnos urgentes?</h4>
+                        <p>Sí. Tenemos algunos turnos disponibles para casos urgentes. Consultanos.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>¿Dónde están ubicados?</h4>
+                        <p>En Mar del Plata. Podés visitarnos o contactarnos para conocer nuestras instalaciones.</p>
+                    </div>
                 </div>
-                <div class="faq-item">
-                    <h4>¿Cuáles son los precios?</h4>
-                    <p>Los precios varían según el protocolo elegido. Podés consultar con nuestro equipo para obtener presupuestos personalizados.</p>
-                </div>
-                <div class="faq-item">
-                    <h4>¿Ofrecen sesiones para equipos?</h4>
-                    <p>Sí. Tenemos protocolos especiales para clubes y equipos. Contactanos para más información sobre nuestro programa B2B.</p>
-                </div>
-                <div class="faq-item">
-                    <h4>¿Es necesario ser derivado por un profesional?</h4>
-                    <p>No es obligatorio, pero en algunos casos es recomendable. Nuestros especialistas evaluarán qué es mejor para vos.</p>
-                </div>
-                <div class="faq-item">
-                    <h4>¿Aceptan turnos urgentes?</h4>
-                    <p>Sí. Tenemos algunos turnos disponibles para casos urgentes. Consultanos.</p>
-                </div>
-                <div class="faq-item">
-                    <h4>¿Dónde están ubicados?</h4>
-                    <p>En Mar del Plata. Podés visitarnos o contactarnos para conocer nuestras instalaciones.</p>
-                </div>
+                <video class="faq-video" autoplay muted loop playsinline poster="imagenes/3327a29f3da8331f257a0a1e26446787.jpg">
+                    <source src="videos/faq-video.mp4" type="video/mp4">
+                </video>
             </div>
         </section>
 
@@ -158,13 +163,25 @@
             z-index: 1;
         }
 
-        .faq-container {
+        .faq-layout {
             max-width: 1200px;
             margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .faq-video {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+            margin-bottom: 30px;
+        }
+
+        .faq-container {
             display: grid;
             grid-template-columns: 1fr;
             gap: 20px;
-            padding: 0 20px;
         }
 
         .faq-item {
@@ -191,8 +208,31 @@
         }
 
         @media (min-width: 1024px) {
+            .faq-layout {
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: stretch;
+                gap: 40px;
+            }
+
+            .faq-layout > * {
+                flex: 1 1 50%;
+                min-width: 0;
+            }
+
+            .faq-video {
+                aspect-ratio: auto;
+                height: 100%;
+                max-height: 600px;
+                margin-bottom: 0;
+                position: sticky;
+                top: 100px;
+                align-self: flex-start;
+            }
+
             .faq-container {
                 grid-template-columns: 1fr;
+                gap: 20px;
             }
         }
     </style>
