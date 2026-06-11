@@ -373,6 +373,7 @@ main {
     aspect-ratio: 16 / 9;
     max-height: 260px;
     border-radius: 8px;
+    margin-top: 25px;
     margin-bottom: 25px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     object-fit: cover;
@@ -654,6 +655,7 @@ footer {
     .content-section:has(.section-image) .section-image {
         aspect-ratio: 1 / 1;
         max-height: none;
+        margin-top: 0;
         margin-bottom: 0;
     }
 
@@ -741,6 +743,7 @@ footer {
     .content-section:has(.section-image) .section-image {
         aspect-ratio: 4 / 3;
         min-width: 0;
+        margin-top: 0;
     }
 
     .features {
